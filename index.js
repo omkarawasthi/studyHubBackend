@@ -22,7 +22,7 @@ database.connect();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-		origin:"http://localhost:3000",
+		origin:"https://studyhubbackend-d96h.onrender.com",
 		credentials:true,
 	})
 )
