@@ -22,7 +22,7 @@ database.connect();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-		origin:"https://studyhubbackend-d96h.onrender.com",
+		origin:"https://studyhub123.netlify.app",
 		credentials:true,
 	})
 )
